@@ -35,6 +35,8 @@ h2 {
     position: static;
     padding-bottom: 353px;
     margin-top: 232px;
+    color: rgba(239,239,239,1.00);
+    font-weight: 900;
 }
 #indexlink .anm {
     float: left;
@@ -48,7 +50,7 @@ h2 {
     opacity: 0;
     transition: 1s;
     background-color: #E92326;
-    background-image: url(img/066a8bed4287189650b1c9d1d1f837d2.jpg);
+    background-image: url(img/background.png);
     text-align: center;
 }
 #indexlink .anm a {
@@ -69,7 +71,17 @@ h2 {
     margin-right: auto;
     width: 22%;
     text-align: center;
+    background-color: rgba(115,115,115,0.49);
 }
+#indexlink .class p {
+    transition: 2s;
+    text-decoration: none;	
+}
+#indexlink .class p:hover {
+    text-decoration: line-through;
+}
+
+
 
 
 * {
@@ -82,14 +94,14 @@ h2 {
 }
 #indexdownlink {
     text-align: center;
-    color: #2D2D2D;
+    color: #D3D3D3;
     padding-top: 0px;
     height: 63px;
 }
 #indexdownlink h3 a {
-    color: #2D2D2D;
+    color: #D3D3D3;
     text-decoration: none;
-	transition: font-size 1s
+    transition: font-size 1s
 }
 #indexdownlink h3 a:hover {
     text-decoration: underline;
@@ -98,7 +110,7 @@ h2 {
 }
 body {
     background-attachment: fixed;
-    background-image: url(img/066a8bed4287189650b1c9d1d1f837d2.jpg);
+    background-image: url(img/background.png);
     background-size: 100% auto;
     background-clip: padding-box;
     background-origin: padding-box;
@@ -117,4 +129,5 @@ body {
     line-height: 30px;
     text-align: center;
     padding-bottom: 90px;
+    color: rgba(217,217,217,1.00);
 }
