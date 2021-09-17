@@ -1,0 +1,26 @@
+@charset "utf-8";
+#p1m1 {
+    width: 100%;
+    position: absolute;
+    margin-top: 140px;
+    background-color: rgba(252,0,4,1.00);
+    text-align: center;
+    height: 67%;
+}
+#p1m1 p1 {
+    font-family: "Microsoft YaHei UI";
+    text-align: center;
+    font-size: 218%;
+}
+#p1m1 .v {
+    width: 25%;
+    float: left;
+    margin-left: 6%;
+}
+#p1m1 #v1 #1 {
+
+}
+#p1m1 #v2 #2 {
+}
+#p1m1 #v3 #3 {
+}
