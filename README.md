@@ -1,2 +1,3 @@
-# circlegallery.io
-由下北泽皇家野兽邸协力
+# CircleGallery
+由Aixeka&Dreamweaver&Github制作、协力
+隶属CircleClub计划
