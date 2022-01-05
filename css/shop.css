@@ -1,0 +1,104 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+#L {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	left: 0;
+	width: 60px;
+	height: 80vh;
+	background-color: green;
+}
+.fa {
+	width: auto;
+	height: 120px;
+	background-color: aqua;
+	margin-bottom: 60%;
+	text-align: center;
+	line-height: 120px;
+}
+#mid {
+	position: absolute;
+	margin: auto;
+	top: 10vh;
+	left: 0;right: 0;
+	width: 90vw;
+	height: 120vh;
+	background-color: aqua;
+}
+.img {
+	position: relative;
+	margin: auto;
+	left: 0;right: 0;
+	width: 76vw;
+	background-color: #FF0000;
+}
+#img {
+	width: 60%;
+	height: 500px;
+	background-color: #000000;
+	position: relative;
+	margin: auto;
+	left: 0;
+	right: 0;
+	margin-bottom: 20px;
+	
+}
+.link {
+	position: relative;
+	margin: auto;
+	left: 0;right: 0;
+	width: 76vw;
+	background-color: greenyellow;
+	text-align: center;
+	font-size: 36px;
+}
+.link a {
+	color: #000000;
+	text-decoration: none;
+}
+.more {
+	position: relative;
+	margin: auto;
+	left: 0;right: 0;
+	width: 76vw;
+	background-color: #008000;
+	font-size: 26px;
+}
+li {
+	list-style: none;
+	text-align: left;
+	position: relative;
+	font-size: 22px;
+}
+.more ul li {
+	background-color: red;
+}
+.more ul li ul {
+	display: none;
+	color: blue;
+}
+.more ul li ul li {
+	background-color: green;
+}
+.more ul li:hover ul {
+	display: inline;
+	height: 24px;
+}
+table {
+	position: relative;
+	margin: auto;
+	left: 0;
+	right: 0;
+	width: 75%;
+}
+table,th,td {
+	text-align: center;
+	border: 1px solid black;
+	font-size: 24px;
+	line-height: 32px;
+}
