@@ -1,3 +1,3 @@
-# CircleGallery
-由Aixeka&Dreamweaver&Github制作、协力<br>
-隶属CircleClub计划
+CircleClub网站
+由Aixeka建设
+隶属CircleClub
