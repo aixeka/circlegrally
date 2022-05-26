@@ -1,0 +1,21 @@
+footer {
+	position: fixed;
+	bottom: 0;
+	background-color: tan;
+	width: 100vw;
+	height: 5vh;
+	text-align: center;
+	line-height: 5vh;
+}
+#head {
+	background-color: aqua;
+	width: 100vw;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	position: fixed;
+	z-index: 9999;
+}
+#head h2 {
+	font-size: 40px;
+}

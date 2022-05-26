@@ -1,0 +1,77 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}footer {
+	position: fixed;
+	bottom: 0;
+	width: 100vw;
+	height: 5vh;
+	color: rgb(9 145 169);
+	text-align: center;
+	line-height: 5vh;
+}
+#head {
+	width: 100vw;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	position: fixed;
+	z-index: 9999;
+}
+#head h2 {
+	font-size: 40px;
+}
+#main {
+	width: 100vw;
+	height: 100vh;
+	background-image: url(https://macjpeg.macsc.com/macw/pic/202007/27172853_4ff21f3fc8.jpeg);
+	background-size: 100% 100%;
+}
+#mid {
+	position: absolute;
+	margin: auto;
+	left: 0;
+	right: 0;
+	margin-top: 20vh;
+	display: inline-flex;
+	width: 90vw;
+	height: 40vh;
+}
+#mid a {
+	margin: auto;
+	background-color: rgba(240,248,255,0.5);
+	width: 20%;
+	height: 5vh;
+	margin-top: 16vh;
+	text-align: center;
+	line-height:5vh;
+	font-size: 3vh;
+	transition: 0.2s ease;
+	color: #000000;
+	text-decoration: none;
+}
+#mid a:hover {
+	margin-top: 8vh;
+	height: 30vh;
+}
+#link {
+	width: 20vw;
+	height: 5vh;
+	position: absolute;
+	margin: auto;
+	left: 0;right: 0;
+	margin-top: 85vh;
+	text-align: center;
+	color: rgb(9 145 169);
+	line-height: 5vh;
+}
+#link a {
+	font-size: 16px;
+	color: rgb(9 145 169);
+	text-decoration: none;
+	transition: 0.2s ease;
+}
+#link a:hover {
+	text-decoration: underline;
+}
