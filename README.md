@@ -1,3 +1,3 @@
 # CircleClub网站
-由Aixeka建设 </br>
-隶属CircleClub
+
+所有来约稿的人都会赠送类似的网站————如果需要的话
