@@ -1,0 +1,160 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+#background {
+	width: 100vw;
+	height: 100vh;
+	position: fixed;
+	background-image: url(https://macjpeg.macsc.com/macw/pic/202007/27172853_4ff21f3fc8.jpeg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+#top {
+	position: fixed;
+	margin: auto	;
+	left: 0;right: 0;
+	margin-top: 0vh;
+	width:90vw;height: 70px;
+	background-color: aqua;
+	font-size: 50px;
+	z-index: 999;
+}
+#top a {
+	position: relative;
+	margin-left: 2vw;
+}
+#topmenu {
+	position: absolute;
+	background-color: black;
+	width: 30vw;
+	margin: auto;
+	right: 5vw;top: 10px;
+	display: inline-flex;
+	line-height: 40px;
+}
+#top #topmenu a {
+	margin: auto;
+	left: 0;right: 0;
+	background-color: red;
+	width: 8vw;
+	font-size: 20px;
+	text-align: center;
+}
+#midmain {
+	background-color: aquamarine;
+	width: 60vw;
+	height: auto;
+	position: relative;
+	margin: auto;
+	left: 0;right: 0;top: 70px;
+	padding-bottom: 4vw;
+}
+#topvid {
+	position: relative;
+	margin: auto;
+	left: 0;right: 0;top: 2.5vw;bottom: 2.5vw;
+	width: 55vw;height: 30vw;
+	background-color: red;
+}
+
+#topvidtxt {
+	position: relative;
+	margin: auto;
+	left: 0;right: 0;top: 3vw;
+	width: 55vw;
+	font-size: 22px;
+}
+#topvidtxt a {
+	text-decoration: none;
+	color: black;
+	transition: 0.2s ease;
+}
+#topvidtxttip{
+	position: absolute;
+	margin: auto;
+	left: 300px;
+	width: 250px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	font-size: 20px;
+	font-weight: 300;
+	background-color: white;
+	z-index: 996;
+	opacity: 0;
+	transition: 0.2s ease;
+}
+/* #topvidtxttip:hover{
+	opacity: 1;
+} */
+#topvidtxt a:hover{
+	color: blue;
+}
+#topvidtxt a:hover #topvidtxttip{
+	opacity: 1;
+}
+#more {
+	position: relative;
+	margin: auto;
+	left: 0;right: 0;top: 4vw;
+	width: 55vw;
+	background-color: yellow;
+	text-align: center;
+}
+#more h2 {
+	font-size: 35px;
+}
+#moreR {
+	position: relative;
+	margin: auto;
+	left: 0;right: 0;
+	width: 55vw;height: 20vw;
+	background-color: aqua;
+	display: inline-table;
+}	
+#moreL {
+	position: relative;
+	margin: auto;
+	left: 0;right: 0;
+	width: 55vw;height: 20vw;
+	background-color: black;
+	display: inline-table;
+}
+#moretxt {
+	margin: auto;
+	left: 0;
+	float: left;
+	width: 35%;
+	background-color: red;
+	text-align: center;
+	line-height: 10vw;
+	height: 18vw;
+}
+#morevid {
+	position: relative;
+	margin: auto;
+	left: 0;right: 0;
+	float: left;
+	width: 65%;
+	background-color: blue;
+	text-align: center;
+	line-height: 10vw;
+	height: 18vw;
+}
+#morevid :hover {
+	margin: auto;
+	left: 0;
+	transition: 0.2s ease;
+}
+#ends {
+	position: relative;
+	width: 90vw;height: 70px;
+	background-color: cornflowerblue;
+	margin: auto;
+	bottom: 0;left: 0;right: 0;
+	margin-top: 4vw;
+	text-align: center;
+	line-height: auto;
+}

@@ -37,15 +37,15 @@ html {
 	color: #000000;
 	text-decoration: none;
 }
-#mid {
+#live2d {
 	position: absolute;
 	margin: auto;
 	top: 8vh;
 	padding-top: 30px;
 	left: 0;right: 0;
 	width: 60vw;
-	height: 120vh;
 	background-color: rgba(255, 255, 255, 0.5);
+	padding-bottom: 6vh;
 }
 .title h3 {
 	text-align: center;
@@ -103,36 +103,26 @@ html {
 	background-color: rgba(255, 255, 255, 0.7);
 	font-size: 26px;
 }
-li {
-	list-style: none;
-	text-align: left;
-	position: relative;
-	font-size: 22px;
+#ize {
+	text-align: center;
+	font-size: 36px;
 }
 .more ul li {
-	background-color: rgba(255, 255, 255, 0.7);
-}
-.more ul li ul {
-	display: none;
-	color: gray;
+	font-size: 27px;
 }
 .more ul li ul li {
-	background-color: rgba(255, 255, 255, 0.4);
+	font-size: 20px;
 }
-.more ul li:hover ul {
-	display: inline;
-	height: 24px;
+.more ul li ul li table th {
+	font-weight: normal;
 }
-table {
-	position: relative;
-	margin: auto;
-	left: 0;
-	right: 0;
-	width: 75%;
-}
-table,th,td {
-	text-align: center;
-	border: 1px solid black;
-	font-size: 24px;
-	line-height: 32px;
+#modle3d {
+		position: relative;
+		margin: auto;
+		top: 8vh;
+		padding-top: 30px;
+		left: 0;right: 0;
+		width: 60vw;
+		background-color: rgba(255, 255, 255, 0.5);
+		padding-bottom: 6vh;
 }
