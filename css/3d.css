@@ -149,12 +149,12 @@
 	transition: 0.2s ease;
 }
 #ends {
-	position: relative;
+	position: ;
 	width: 90vw;height: 70px;
 	background-color: cornflowerblue;
 	margin: auto;
 	bottom: 0;left: 0;right: 0;
 	margin-top: 4vw;
-	text-align: center;
+	text-align: center;.
 	line-height: auto;
 }
