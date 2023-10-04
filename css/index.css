@@ -7,7 +7,7 @@
 	bottom: 0;
 	width: 100vw;
 	height: 5vh;
-	color: rgb(9 145 169);
+	color: white;
 	text-align: center;
 	line-height: 5vh;
 }
@@ -25,8 +25,14 @@
 #main {
 	width: 100vw;
 	height: 100vh;
-	background-image: url(https://macjpeg.macsc.com/macw/pic/202007/27172853_4ff21f3fc8.jpeg);
-	background-size: 100% 100%;
+	background-size: 100% 100%;}
+#bg {
+		position: absolute;
+		width: 100vw;
+		height: 100vh;
+		background-size: 100% 100%;
+		background-image: url(../img/BG.jpg);
+		filter: blur(30px);
 }
 #mid {
 	position: absolute;
@@ -39,21 +45,77 @@
 	height: 40vh;
 }
 #mid a {
+	border-radius: 9px;
 	margin: auto;
 	background-color: rgba(240,248,255,0.5);
+	background-image: none;
 	width: 20%;
 	height: 5vh;
 	margin-top: 16vh;
 	text-align: center;
 	line-height:5vh;
 	font-size: 3vh;
-	transition: 0.2s ease;
+	transition: 0.3s ease;
 	color: #000000;
 	text-decoration: none;
 }
 #mid a:hover {
 	margin-top: 8vh;
 	height: 30vh;
+}
+#mid1 {
+	position: relative;
+	margin: auto;
+	top: 10%;
+	width: 90%;
+	height: 60%;
+	opacity: 0;
+	transition: 0.5s ease;
+}
+#mid a:hover #mid1 {
+	border-radius: 6px;
+	background-image: url(../img/l2d.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: inherit;
+	background-position-y: 80%;
+	opacity: 1;
+}
+#mid2 {
+	position: relative;
+	margin: auto;
+	top: 10%;
+	width: 90%;
+	height: 60%;
+	opacity: 0;
+	transition: 0.5s ease;
+}
+#mid a:hover #mid2 {
+	border-radius: 6px;
+	background-image: url(../img/3d.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: inherit;
+	background-position-y: 30%;
+	opacity: 1;
+}
+#mid3 {
+	position: relative;
+	margin: auto;
+	top: 10%;
+	width: 90%;
+	height: 60%;
+	opacity: 0;
+	transition: 0.5s ease;
+}
+#mid a:hover #mid3 {
+	border-radius: 6px;
+	background-image: url(../img/shop.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: inherit;
+	background-position-y: 80%;
+	opacity: 1;
 }
 #link {
 	width: 20vw;
@@ -63,12 +125,12 @@
 	left: 0;right: 0;
 	margin-top: 85vh;
 	text-align: center;
-	color: rgb(9 145 169);
+	color: white;
 	line-height: 5vh;
 }
 #link a {
 	font-size: 16px;
-	color: rgb(9 145 169);
+	color: white;
 	text-decoration: none;
 	transition: 0.2s ease;
 }
